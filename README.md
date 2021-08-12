@@ -62,4 +62,9 @@ rosrun ros_tcp_endpoint default_server_endpoint.py
 
 Once the application is deployed to the Hololens, it will automatically Run and you will be able to interact with the Hologram Cube, and will be able to detect the QR Code as well.
 
+To access the Pose of the Cube and the QR Code detected, echo the following ROS Topics
+```
+\pos_rot
+\qr_code_pose
+```
 
