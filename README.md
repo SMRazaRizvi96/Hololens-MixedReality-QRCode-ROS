@@ -20,9 +20,9 @@ This project has a Hologram cube which can be grabbed and placed anywhere in the
 ## Setup
 For this project, setup your Unity in Windows, and ROS in Ubuntu.
 
-- Clone the 'Hololens-MR-QR-CodeTracking-ROS' folder into you windows
-- Clone the 'hololens_msgs' in your ROS Workspace in Ubuntu
-- Clone the [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) folder in the src folder of you ROS Workspace and run 'catkin_make'
+- [ ] Clone the 'Hololens-MR-QR-CodeTracking-ROS' folder into you windows
+- [ ] Clone the 'hololens_msgs' in your ROS Workspace in Ubuntu
+- [ ] Clone the [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) folder in the src folder of you ROS Workspace and run 'catkin_make'
 
 
 ## How to Run
