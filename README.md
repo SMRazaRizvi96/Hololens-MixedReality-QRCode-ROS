@@ -23,16 +23,22 @@ For this project, setup your Unity in Windows, and ROS in Ubuntu.
 - [X] Clone the 'Hololens-MR-QR-CodeTracking-ROS' folder into you windows
 - [X] Clone the 'hololens_msgs' in your ROS Workspace in Ubuntu
 - [X] Clone the [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) folder in the src folder of you ROS Workspace and run
-       'catkin_make'
+'''
+'catkin_make'
+'''
 
 
 ## How to Run
 Before running the project, make sure that the Windows and Ubuntu, both are on the same WiFi network
 - [X] Run the following command in the Ubuntu Terminal and note the IP Address
-    Hostname -I
+'''
+hostname -I
+'''
 - [X] Mention this IP Address in the 'ROS IP' parameter inside ROS-TCP-Endpoint -> config -> params.yaml
 - [X] Run the following command inside the Ubuntu Terminal
-    rosrun ros_tcp_endpoint default_server_endpoint.py~~~ 
+'''
+rosrun ros_tcp_endpoint default_server_endpoint.py
+'''
 - [X] Open the 'Hololens-MR-QR-CodeTracking-ROS' project in Unity.
     - Mention the ROS IP Address inside Unity Project -> Robotics -> ROS Settings -> ROS IP Address
     - Build a Universal Windows Platform application.
