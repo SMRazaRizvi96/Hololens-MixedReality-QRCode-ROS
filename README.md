@@ -2,6 +2,8 @@
 This repository contains a Unity project that can be deployed on a Hololens 2.
 This project has a Hologram cube which can be grabbed and placed anywhere in the environment. Moreover, this project can also detect QR codes, and you will also be able to receive the Pose of the hologram Cube, and the the QR Code detected, inside ROS through a TCP Connection.
 
+https://user-images.githubusercontent.com/74411560/129280730-e3ee1433-108d-4f77-b21a-8c1086787cc3.mp4
+
 ## Software Versions
 - Unity Hub 2.4.3
 - Unity Version 2020.3.12f1
@@ -27,6 +29,8 @@ For this project, setup your Unity in Windows, and ROS in Ubuntu.
 ```
     catkin_make
 ```
+
+
 
 
 ## How to Run
