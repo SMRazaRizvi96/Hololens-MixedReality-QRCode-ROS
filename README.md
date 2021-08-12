@@ -24,22 +24,22 @@ For this project, setup your Unity in Windows, and ROS in Ubuntu.
 - [X] Clone the 'hololens_msgs' in your ROS Workspace in Ubuntu
 - [X] Clone the [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) folder in the src folder of you ROS Workspace and run
 
-'''
+```
     catkin_make
-'''
+```
 
 
 ## How to Run
 Before running the project, make sure that the Windows and Ubuntu, both are on the same WiFi network
 - [X] Run the following command in the Ubuntu Terminal and note the IP Address
-'''
+```
 hostname -I
-'''
+```
 - [X] Mention this IP Address in the 'ROS IP' parameter inside ROS-TCP-Endpoint -> config -> params.yaml
 - [X] Run the following command inside the Ubuntu Terminal
-'''
+```
 rosrun ros_tcp_endpoint default_server_endpoint.py
-'''
+```
 - [X] Open the 'Hololens-MR-QR-CodeTracking-ROS' project in Unity.
     - Mention the ROS IP Address inside Unity Project -> Robotics -> ROS Settings -> ROS IP Address
     - Build a Universal Windows Platform application.
@@ -49,7 +49,13 @@ rosrun ros_tcp_endpoint default_server_endpoint.py
         -  Target Device: HoloLens
         -  Build (This will open the folder of this project. Create a new folder 'Builds' and select this folder to save the built application)
 
+- [X] Turn your HoloLens2 on and make sure it is connected to the same WiFi network
 - [X] After the build is completed, open the Visual Studio Solution file from the Build folder
-- 
+    - Solution Configuration: Release
+    - Solution Platform: ARM 64
+    - Properties -> Configuration Pproperties -> Debugging -> Machine Name -> Your HoloLens2 IP Address
+    - Click on the Play Button 'Remote Machine'
+
+Once the application is deployed to the Hololens, it will automatically Run and you will be able to interact with the Hologram Cube, and will be able to detect the QR Code as well.
 
 
