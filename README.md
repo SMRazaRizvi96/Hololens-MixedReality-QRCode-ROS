@@ -28,10 +28,10 @@ For this project, setup your Unity in Windows, and ROS in Ubuntu.
 ## How to Run
 - Before running the project, make sure that the Windows and Ubuntu, both are on the same WiFi network
 - Run the following command in the Ubuntu Terminal and note the IP Address
-                Hostname -I
+                ~~~ Hostname -I~~~ 
 - Mention this IP Address in the 'ROS IP' parameter inside ROS-TCP-Endpoint -> config -> params.yaml
 - Run the following command inside the Ubuntu Terminal
-                rosrun ros_tcp_endpoint default_server_endpoint.py
+                ~~~ rosrun ros_tcp_endpoint default_server_endpoint.py~~~ 
 - Open the 'Hololens-MR-QR-CodeTracking-ROS' project in Unity.
     - Mention the ROS IP Address inside Unity Project -> Robotics -> ROS Settings -> ROS IP Address
     - Build a Universal Windows Platform application.
